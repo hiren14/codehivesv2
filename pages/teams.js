@@ -30,7 +30,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}>Mentor</h2>
         <div className={Styles.cardContainer}>
-          {menter.slice(0, 20).map((item, index) => {
+          {menter.map((item, index) => {
             return (
               <TeamCard
                 key={`${String(index)}-team`}
@@ -47,7 +47,7 @@ function Teams() {
        
         <h2 className={Styles.postHead}>Mentor</h2>
         <div className={Styles.cardContainer}>
-          {Director.slice(0, 20).map((item, index) => {
+          {Director.map((item, index) => {
             return (
               <TeamCard
                 key={`${String(index)}-team`}
@@ -65,7 +65,7 @@ function Teams() {
         
         <h2 className={Styles.postHead}>Core Team</h2>
         <div className={Styles.cardContainer}>
-          {Core.slice(0, 20).map((item, index) => {
+          {Core.map((item, index) => {
             return (
               <TeamCard
                 key={`${String(index)}-team`}
@@ -83,7 +83,7 @@ function Teams() {
           
         <h2 className={Styles.postHead}> Team 2K23</h2>
         <div className={Styles.cardContainer}>
-          {Team2k22.slice(0, 20).map((item, index) => {
+          {Team2k22.map((item, index) => {
             return (
               <TeamCard
                 key={`${String(index)}-team`}
