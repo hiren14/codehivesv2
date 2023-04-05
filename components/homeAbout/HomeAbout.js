@@ -36,7 +36,7 @@ The community encouragesInclusion and Diversityat its core and has various event
       </div>
       <div className="my-6 py-2">
         <p className="text-xl w-10/12 md:w-full md:text-lg sm:text-base">
-        Let's <del>Get</del><sup>Git</sup> Together
+        Lets <del>Get</del><sup>Git</sup> Together
             </p>
       </div>
       <Link href="/about">
