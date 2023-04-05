@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import {  FaLinkedin } from 'react-icons/fa';
 import Style from './Team.module.css';
 
 const ICON_SIZE = 28;
