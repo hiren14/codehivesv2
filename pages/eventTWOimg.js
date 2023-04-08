@@ -5,7 +5,7 @@ import Screen from '../components/screen/Screen';
 import BottomGlitter from '../components/StyledText/BottomGlitter';
 import Styles from '../components/event/event.module.css';
 
-function eventimg() {
+function Eventimg() {
   return (
     <Screen>
       <Head>
@@ -41,4 +41,4 @@ function eventimg() {
   );
 }
 
-export default eventimg;
+export default Eventimg;
