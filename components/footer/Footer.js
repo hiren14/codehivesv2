@@ -21,9 +21,9 @@ function Footer() {
           <div className="my-3 flex flex-col">
             <h3 className="text-2xl">Meet</h3>
             <h4 className="text-lg font-extralight">
-             Gecpatan,Katpur <br />
-              Patan-pin <br />
-Gujarat ,India
+              GecPatan, Katpur <br />
+              Patan-384285 <br />
+              Gujarat, India.
             </h4>
           </div>
         </div>
@@ -33,7 +33,7 @@ Gujarat ,India
             <a className="pl-1 block text-lg my-1 font-extralight">Events</a>
           </Link>
           <a
-            href="https://blog.hnccbits.com"
+            href="https://ssgecpatan.blogspot.com"
             className="pl-1 block text-lg my-1 font-extralight"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,12 +41,12 @@ Gujarat ,India
             Blog
           </a>
           <a
-            href="https://bitsindri.ac.in"
+            href="https://gecpatan.ac.in"
             className="block pl-1 text-lg my-1 font-extralight"
             target="_blank"
             rel="noopener noreferrer"
           >
-            BIT Sindri
+            GEC Patan
           </a>
         </div>
         <div className="flex-4 md:flex-1 sm:mt-8">
