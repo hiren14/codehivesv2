@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import EventCard from '../components/event/EventCard';
-import { EventTWOimg } from '../lib/data/EventimgData';
+import { eventFIVEimg } from '../lib/data/EventimgData';
 import Screen from '../components/screen/Screen';
 import BottomGlitter from '../components/StyledText/BottomGlitter';
 import Styles from '../components/event/event.module.css';
 
-function eventTWOimg() {
+function EVentimg() {
   return (
     <Screen>
       <Head>
@@ -22,12 +22,13 @@ function eventTWOimg() {
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <meta property= "og:title" content="CodeHives GECP" />
 
+        
       </Head>
       
       <section className="container-70 pt-28 md:pt-16 sm:pt-12">
       <BottomGlitter text="Our Events" />
       <div className={Styles.cardContainer}>
-        {EventTWOimg.map((item, index) => {
+        {eventFIVEimg.map((item, index) => {
           return (
             <EventCard
               title={item.title}
@@ -45,4 +46,4 @@ function eventTWOimg() {
   );
 }
 
-export default eventTWOimg;
+export default EVentimg;
