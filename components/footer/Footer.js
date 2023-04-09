@@ -77,7 +77,7 @@ function Footer() {
         </h6>
 
         <h6 className="flex items-center">
-          Crafted with&nbsp;<span className="text-2xl">♥</span>&nbsp;by Hiren Lalani.
+          Crafted with&nbsp;<span className="text-2xl">♥</span>&nbsp;by Hiren Lalani and Tech team.
         </h6>
       </div>
     </footer>
