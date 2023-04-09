@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import EventCard from '../components/event/EventCard';
-import { eventTWOimg } from '../lib/data/EventimgData';
+import { EventTWOimg } from '../lib/data/EventimgData';
 import Screen from '../components/screen/Screen';
 import BottomGlitter from '../components/StyledText/BottomGlitter';
 import Styles from '../components/event/event.module.css';
 
-function Eventimg() {
+function eventTWOimg() {
   return (
     <Screen>
       <Head>
@@ -23,7 +23,7 @@ function Eventimg() {
       <section className="container-70 pt-28 md:pt-16 sm:pt-12">
       <BottomGlitter text="Our Events" />
       <div className={Styles.cardContainer}>
-        {eventTWOimg.map((item, index) => {
+        {EventTWOimg.map((item, index) => {
           return (
             <EventCard
               title={item.title}
@@ -41,4 +41,4 @@ function Eventimg() {
   );
 }
 
-export default Eventimg;
+export default eventTWOimg;

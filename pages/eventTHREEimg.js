@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import EventCard from '../components/event/EventCard';
-import { eventTHREEimg } from '../lib/data/EventimgData';
+import { EventTHREEimg } from '../lib/data/EventimgData';
 import Screen from '../components/screen/Screen';
 import BottomGlitter from '../components/StyledText/BottomGlitter';
 import Styles from '../components/event/event.module.css';
 
-function EVentimg() {
+function eventTHREEimg() {
   return (
     <Screen>
       <Head>
@@ -23,7 +23,7 @@ function EVentimg() {
       <section className="container-70 pt-28 md:pt-16 sm:pt-12">
       <BottomGlitter text="Our Events" />
       <div className={Styles.cardContainer}>
-        {eventTHREEimg.map((item, index) => {
+        {EventTHREEimg.map((item, index) => {
           return (
             <EventCard
               title={item.title}
@@ -41,4 +41,4 @@ function EVentimg() {
   );
 }
 
-export default EVentimg;
+export default eventTHREEimg;
