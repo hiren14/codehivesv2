@@ -12,12 +12,16 @@ function Teams() {
         <title>Our Amazing Team ✨</title>
         <meta
           name="description"
-          content="Teams of HnCC (Hackathon & Coding Club), BIT Sindri, Dhanbad"
+          content="Teams of Code Hives (git-github & Coding Club), Gec Patan, Patan"
         />
         <meta
           name="keywords"
-          content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Team of HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
+          content="Code Hives, ReactJS, NextJS, GEC Patan, Patan ,Code Hives,Programming tutorials, Web development,Software development,Coding resources,Programming languages,JavaScript,Python,HTML-CSS,Java,C++,Front-end development,Back-end development,Frameworks,Coding community,Coding tips,Code snippets,Debugging techniques."
         />
+        <meta name="robots" content="index, follow"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <meta property= "og:title" content="CodeHives GECP" />
+
       </Head>
       <section className="mt-16 mb-12 container-70">
         <div className="my-16 w-full text-center">

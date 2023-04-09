@@ -57,12 +57,16 @@ function FAQs() {
         <title>Frequently Asked Question (FAQs) 🤔</title>
         <meta
           name="description"
-          content="Frequently asked questions about HnCC by a student/professional"
+          content="Frequently asked questions about Code Hives of GIT - GITHUB CLUB by a student/professional"
         />
         <meta
           name="keywords"
-          content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Frequently Asked Question, FAQs, Hackathon & Coding Club, BIT Sindri, Dhanbad"
+          content="Code Hives, ReactJS, NextJS, GEC Patan, Patan ,Code Hives,Programming tutorials, Web development,Software development,Coding resources,Programming languages,JavaScript,Python,HTML-CSS,Java,C++,Front-end development,Back-end development,Frameworks,Coding community,Coding tips,Code snippets,Debugging techniques."
         />
+        <meta name="robots" content="index, follow"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <meta property= "og:title" content="CodeHives GECP" />
+
       </Head>
       <section className="container-70 pt-16 sm:pt-8 sm:w-4/5 xs:w-[85%]">
         <div className="mt-6 mb-20 sm:mt-8 sm:mb-20 xs:mt-4 xs:mb-16">
