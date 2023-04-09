@@ -62,7 +62,7 @@ function Footer() {
           <Link href="/faqs">
             <a className="block pl-1 text-lg my-1 font-extralight">FAQs</a>
           </Link>
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSe2sjlkt2S0RePZoGqpGYJ9ry69dwPnZaVcePxKQ0vvanevKA/viewform?embedded=true">
+          <Link href="/teams">
             <a className="pl-1 block text-lg my-1 font-extralight">
               Contact Us
             </a>
