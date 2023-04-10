@@ -74,6 +74,10 @@ function Events() {
           name="keywords"
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Events of HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property= "og:title" content="CodeHives GECP" />
+
       </Head>
       <div>
         <div className="text-center mt-10 mb-8 sm:my-8">
