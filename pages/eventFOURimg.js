@@ -1,18 +1,18 @@
 import Head from 'next/head';
 import EventCard from '../components/event/EventCard';
-import { EventX } from '../lib/data/EventimgData';
+import { eventFOURimg } from '../lib/data/EventimgData';
 import Screen from '../components/screen/Screen';
 import BottomGlitter from '../components/StyledText/BottomGlitter';
 import Styles from '../components/event/event.module.css';
 
-function inst() {
+function EVEntimg() {
   return (
     <Screen>
       <Head>
         <title>About Us</title>
         <meta
           name="description"
-          content="Code HIves or GDSC and Coding Club is the official club of GEC Patan that has the motto to instill a coding culture, collaborate, and arrange events relevant to Open Source, Graphics and Game Development, Web Development, App Development, and many other topics."
+          content="Code HIves or GDSC and Coding Club is the official club of GEC PATAN that has the motto to instill a coding culture, collaborate, and arrange events relevant to Open Source, Graphics and Game Development, Web Development, App Development, and many other topics."
         />
         <meta
           name="keywords"
@@ -27,7 +27,7 @@ function inst() {
       <section className="container-70 pt-28 md:pt-16 sm:pt-12">
       <BottomGlitter text="Our Events" />
       <div className={Styles.cardContainer}>
-        {EventX.map((item, index) => {
+        {eventFOURimg.map((item, index) => {
           return (
             <EventCard
               title={item.title}
@@ -45,4 +45,4 @@ function inst() {
   );
 }
 
-export default inst;
+export default EVEntimg;
