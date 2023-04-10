@@ -83,11 +83,8 @@ function Navbar() {
         <Link href="/faqs">
           <a className={styles.navLink}>FAQs</a>
         </Link>
-        <Link href="/contact">
-          <a className={styles.navLink}>CONTACT US</a>
-        </Link>
         <a
-          href="https://docs.google.com/forms/d/1eOZsO1X6qmqyS48nEw43RJnOhwEBuAvXpXZXMtOOLaY/viewform?edit_requested=true"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSewrWz8hVJxCMNfxxmbi60ue6QPRcKZFJN8EVtEwRoRcZrWww/viewform"
           target="_blank"
           className="flex rounded-full"
           rel="noreferrer"
@@ -96,7 +93,7 @@ function Navbar() {
             style={{ border: 'none' }}
             className="bg-primary-light text-primary hover:text-primary-light"
           >
-            <span style={SpanStyle}>Join Us</span>
+            <span style={SpanStyle}>CONTACT US</span>
           </Button>
         </a>
       </div>
